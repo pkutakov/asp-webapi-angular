@@ -1,0 +1,12 @@
+﻿<div ng-controller="testController">
+    <div class="row">
+        <div class="col-md-4">
+            <button class="btn btn-success" ng-click="showTestOk('Everything is OK!')">Show Success Information</button>
+        </div>
+    </div>
+    <button ng-click="test401error()">Test on 401 error</button>
+    <div>{{test401Content}}</div>
+    <button ng-click="test403error()">Test on 403 error</button>
+    <div>{{test403Content}}</div>
+</div>
+<a ng-href="/sampleEntity">Create sample entity</a>

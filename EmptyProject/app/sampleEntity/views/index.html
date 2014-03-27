@@ -1,0 +1,10 @@
+﻿
+<div ng-controller="sampleEntityController">
+    
+    <input type="text" name="FirstName" value=" " ng-model="entity.FirstName" />
+    <div>{{entity.FirstName}}</div>
+    <input type="text" name="LastName" value=" " ng-model="entity.LastName" />
+    <div>{{entity.LastName}}</div>
+    <button class="btn btn-success" ng-click="save(entity)">SAVE IT!</button>
+</div>
+
